@@ -1,21 +1,22 @@
 #include <iostream>
-float num=3.14;
-void func(){
-    std::cout<<"global variable: "<< num <<std::endl;
-    std::cout<<"global variable: "<< &num <<std::endl;
-    std::cout<<"global variable: "<< sizeof(num) <<std::endl;
-    //std::cout<<"global variable: "<<num<<std::endl;
+#define debug
 
-
-}
-
+struct point
+{
+    int x;
+    int y;
+};
 int main(){
-    int a=1;
-    int x,y;
-    std::cout<<"global variable: "<<num<<std::endl;
-    std::cout<<"main func variable: "<<a<<std::endl;
-    func();
-
-    std::cin >> x >>y;
+    point a;
+    point b;
+    a.x=0;
+    a.y=0;
+    b.x=1;
+    b.y=1;
+    #ifdef debug
+        std::cout << "Punto A: (" << a.x << ", " << a.y << ")\n";
+    #endif
+    std::cout << "Punto B: (" << b.x << ", " << b.y << ")\n";
+    /* code */
     return 0;
 }
