@@ -16,7 +16,7 @@ int main(){
     #ifdef debug
         std::cout << "Punto A: (" << a.x << ", " << a.y << ")\n";
     #endif
-    std::cout << "Punto B: (" << b.x << ", " << b.y << ")\n";
+        std::cout << "Punto B: (" << b.x << ", " << b.y << ")\n";
     /* code */
     return 0;
 }
