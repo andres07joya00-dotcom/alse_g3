@@ -28,7 +28,9 @@ void loop(){
         std::cout << "Contador: " << contador << std::endl;
         contador++; // suma 1 a contador
     }
+    
 }
+
 int main(){
 
     int a = 5;

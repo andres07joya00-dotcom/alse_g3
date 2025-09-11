@@ -1,6 +1,6 @@
 #include <iostream>
 
-int mian(){
+int main(){
     // Operadores binarios
     int bin1 = 5;                  // 0101 en binario
     int bin2 = 3;                  // 0011 en binario

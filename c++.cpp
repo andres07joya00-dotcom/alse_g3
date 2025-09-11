@@ -1,7 +1,7 @@
 #include <iostream>
 #define debug
 
-struct point
+struct point // Estructura para representar un punto en 2D
 {
     int x;
     int y;

@@ -4,12 +4,12 @@ int main() {
     int a = 5;
     int b = 2;
 
-    double division = a / b;
+    float division = int(a) / int(b);
     // Operadores aritméticos
     std::cout << "Suma: " << a + b << std::endl;        // Suma
     std::cout << "Resta: " << a - b << std::endl;       // Resta
     std::cout << "Multiplicación: " << a * b << std::endl; // Multiplicación
-    std::cout << "División: " << division << std::endl;     // División
+    std::cout << "División: " << float(division) << std::endl;     // División
     std::cout << "Módulo: " << a % b << std::endl;       // Módulo(residuo de la división)
 
     // Operadores de asignación
