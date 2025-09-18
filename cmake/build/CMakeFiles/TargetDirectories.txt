@@ -1,0 +1,3 @@
+/home/joyita/alse_g3/cmake/build/CMakeFiles/MiProyecto.dir
+/home/joyita/alse_g3/cmake/build/CMakeFiles/edit_cache.dir
+/home/joyita/alse_g3/cmake/build/CMakeFiles/rebuild_cache.dir
